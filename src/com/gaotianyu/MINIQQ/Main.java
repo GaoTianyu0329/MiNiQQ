@@ -36,6 +36,7 @@ public class Main extends Application {
             primaryStage.setMaxWidth(600);
             primaryStage.show();
 
+
         }catch (IOException e){
             e.printStackTrace();
         }
@@ -45,6 +46,13 @@ public class Main extends Application {
         userid = (TextField) root.lookup("#userid");
         pwd = (PasswordField) root.lookup("#pwd");
         login = (Button)root.lookup("#login");
+    }
+    //验证登录
+    public void whenLogin(String userid,String pwd){
+
+    }
+    public void whenSignUp(String userid,String pwd,String nickName,String sex){
+
     }
 
 }
